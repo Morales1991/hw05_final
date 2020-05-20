@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends 'base.html' %}
 {% block title %}Пост автора {{username}} {{ group.title }}{% endblock %}
 {% block content %}
 <main role="main" class="container">
@@ -35,7 +35,7 @@
         <div class="col-md-9">
 
             <!-- Пост -->  
-                {% include "post_item.html" with post=post %}
+                {% include 'post_item.html' with post=post %}
                 {% include 'comments.html' %}
      </div>
     </div>

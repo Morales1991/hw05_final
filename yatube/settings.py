@@ -142,7 +142,7 @@ EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
 SITE_ID = 1
 
 CACHES = {
-        'default': {
-                'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
-        }
+    'default': {
+        'BACKEND': 'django.core.cache.backends.locmem.LocMemCache',
+    }
 }
